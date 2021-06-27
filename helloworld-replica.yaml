@@ -11,7 +11,8 @@ spec:
       app: helloworld
   template:
     metadata:
-      app: helloworld
+      labels:
+        app: helloworld
     spec:
       containers:
       - name: k8s-demo

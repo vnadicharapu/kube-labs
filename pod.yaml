@@ -1,5 +1,5 @@
 apiVersion: V1
-kind: pod
+kind: Pod
 metadata: 
   name: pod1
 spec:

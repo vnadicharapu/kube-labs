@@ -10,4 +10,4 @@ spec:
     image: redis
     ports:
     - name: nodejs-port
-      containerPort: 6379
+      containerPort: 3000

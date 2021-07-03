@@ -8,8 +8,8 @@ spec:
   relicas: 2
   selector:
     matchLabels:
-      app: redis
+      app: redisdemo
    template:
       metadata:
         labels:
-          app: redis
+          app: redisdemo

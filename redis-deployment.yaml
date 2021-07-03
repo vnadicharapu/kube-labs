@@ -6,8 +6,8 @@ spec:
   relicas: 2
   selector:
     matchLabels:
-      app: redisdemo
+      app: redis
    template:
       metadata:
         labels:
-          app: redisdemo
+          app: redis

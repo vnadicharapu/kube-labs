@@ -13,7 +13,7 @@ spec:
           app: redis
       spec:
       containers:
-        - name: k8s-demo
+        - name: redis
           image: redis
           ports:
             - name: nodejs-port

@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Deployment
+metadata: 
+  name: redis-deployment
+  labels:
+    app: redisdemo
+spec:
+  relicas: 2
+  selector:
+    matchLabels:
+      app: redisdemo
+   template:
+      metadata:
+        labels:
+          app: redisdemo
